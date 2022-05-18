@@ -1,0 +1,8 @@
+<!--<app-article-creation (newArticle)="newArticle($event)"></app-article-creation>-->
+<br/>
+<input (input)="searchArticle($event)" (ngModelChange)="searchArticle" type="text" placeholder="Recherche">
+<br/>
+<br/>
+<div *ngFor="let article of this.articles() | async">
+  <app-article  [article]="article" (deletedArticle)="delete($event)"></app-article>
+</div>
