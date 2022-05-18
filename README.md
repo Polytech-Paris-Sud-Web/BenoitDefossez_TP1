@@ -1,4 +1,4 @@
 # BenoitDefossez_TP1
 Rendu du TP1
-
-J'ai aidé Lucas, Julien et Claire
+Aidé par Sebastien Leonce
+J'ai aidé Lucas Payeet, Julien Save et Claire Bauchu
